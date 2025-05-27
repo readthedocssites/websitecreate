@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://your-domain.readthedocs.io/sitemap.xml
+
+# Disallow potentially sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /backend/
+Disallow: /includes/
+Disallow: /temp/
+Disallow: /download/private/
+
+# Allow important sections
+Allow: /products/
+Allow: /guides/
+Allow: /support/
+Allow: /learn/
+Allow: /app/

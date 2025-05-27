@@ -1,0 +1,506 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="company-name">
+          <a href="/">TRÉZOR</a>
+        </div>
+        <div class="nav-links">
+          <a href="/products">Products</a>
+          <a href="/app">App</a>
+          <a href="/coins">Coins</a>
+          <a href="/learn">Learn & Support</a>
+        </div>
+        <div class="nav-right">
+          <select class="currency-select">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+          </select>
+          <a href="/cart" class="cart">Cart (0)</a>
+          <a href="/get-trezor" class="get-trezor-btn">Get your Trézor</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Get started<br />with your new Trézor</h1>
+        <p>Download the Trézor Suite app and follow the steps to get started.</p>
+        
+        <div class="cta-buttons">
+          <a href="#" class="primary-btn">Download for desktop</a>
+          <a href="#" class="secondary-btn">Continue in browser</a>
+          <a href="#" class="secondary-btn">More</a>
+        </div>
+      </section>
+
+      <section class="steps">
+        <h2>This is how it works</h2>
+        
+        <div class="step-cards">
+          <div class="step-card">
+            <span class="step-number">1</span>
+            <h3>Download Trézor Suite</h3>
+            <p>Download Trézor Suite for desktop for the best experience, or click "Continue in browser" to open the web app.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">2</span>
+            <h3>Install the app</h3>
+            <p>Install the desktop app on your computer. This step isn't necessary for web app users.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">3</span>
+            <h3>Set up your Trézor</h3>
+            <p>Plug in your device and follow the steps to set up your Trézor hardware wallet. This takes about 15 minutes.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">4</span>
+            <h3>Move your coins</h3>
+            <p>You're ready to protect your crypto securely. Check our guide to learn how to transfer your assets from an exchange to your Trézor.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="expert-guidance">
+        <h2>Prefer expert guidance?</h2>
+        <div class="expert-container">
+          <div class="expert-image">
+            <img src="https://images.pexels.com/photos/7605926/pexels-photo-7605926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Expert Guidance" />
+          </div>
+          <div class="expert-content">
+            <h3>Get started with Trézor Expert</h3>
+            <ul>
+              <li>Personal 1:1 guide for Trézor hardware wallet setup</li>
+              <li>60-minute live, online Trézor Expert Onboarding Session in English</li>
+              <li>Available for all Trézor hardware wallets</li>
+            </ul>
+            <a href="#" class="primary-btn">Buy for USD 99</a>
+            <p class="note">*It's necessary to have a Trézor device with you for this session.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-brand">
+          <a href="/" class="footer-logo">TRÉZOR</a>
+          <p class="company-info">a part of SatoshiLabs Group</p>
+        </div>
+        
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#">Trézor Safe 3</a></li>
+              <li><a href="#">Trézor Safe 5</a></li>
+              <li><a href="#">Model One</a></li>
+              <li><a href="#">Model T</a></li>
+              <li><a href="#">Trézor Keep</a></li>
+              <li><a href="#">Trézor Expert</a></li>
+              <li><a href="#">Compare wallets</a></li>
+              <li><a href="#">Trézor Suite</a></li>
+              <li><a href="#">All products & accessories</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Learn</h4>
+            <ul>
+              <li><a href="#">Supported coins</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Third-party wallet apps</a></li>
+              <li><a href="#">Privacy and Security</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">Forum</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Other</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Reseller Program</a></li>
+              <li><a href="#">Resellers</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Press & Media</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="social-links">
+          <a href="#" class="social-link">X</a>
+          <a href="#" class="social-link">Reddit</a>
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">Facebook</a>
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">TikTok</a>
+          <a href="#" class="social-link">YouTube</a>
+        </div>
+        
+        <div class="footer-legal">
+          <p class="copyright">Copyright belongs to Trézor company s.r.o. All rights reserved.</p>
+          <div class="cookies-settings">
+            <button class="cookies-btn">Cookies +</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  header {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .company-name a {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0C6E4F;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .get-trezor-btn {
+    background-color: #0C6E4F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .hero {
+    padding: 80px 0;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .primary-btn {
+    background-color: #0C6E4F;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .secondary-btn {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .steps {
+    padding: 60px 0;
+  }
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .step-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .step-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .step-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .expert-guidance {
+    padding: 60px 0;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin: 40px 0;
+  }
+
+  .expert-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .expert-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .expert-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .expert-content li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+  }
+
+  .expert-content li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0C6E4F;
+  }
+
+  .note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+  }
+
+  footer {
+    background-color: #0A0A0A;
+    color: white;
+    padding: 60px 0 20px;
+    margin-top: 80px;
+  }
+
+  .footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 60px;
+  }
+
+  .footer-brand {
+    padding-top: 8px;
+  }
+
+  .footer-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .company-info {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .footer-section h4 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 12px;
+  }
+
+  .footer-section a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+
+  .footer-section a:hover {
+    color: white;
+  }
+
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 20px 20px 0;
+    border-top: 1px solid #333;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .social-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+
+  .social-link:hover {
+    color: white;
+  }
+
+  .footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .copyright {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .cookies-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .cookies-btn:hover {
+    color: white;
+  }
+
+  @media (max-width: 1024px) {
+    .footer-wrapper {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .footer-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-links, .nav-right {
+      display: none;
+    }
+
+    .expert-container {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      padding: 40px 0;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .primary-btn, .secondary-btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+
+    .social-links {
+      flex-wrap: wrap;
+    }
+
+    .footer-legal {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+</style>

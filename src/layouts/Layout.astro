@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Trézor Suite App (Official) | Desktop & Web Crypto® Management</title>
+    <meta name="description" content="Trézor Suite is the official interface for your Trézor hardware wallet. Manage your crypto assets securely with our desktop app or web interface. Download now for Windows, macOS, or Linux." />
+    <meta name="keywords" content="Trézor Suite, what is Trézor Suite, crypto wallet management, hardware wallet, cryptocurrency security, Trézor wallet, crypto asset management, secure bitcoin wallet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+</style>
