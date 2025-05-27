@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.readthedocs.io/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.readthedocs.io/products/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/products/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.readthedocs.io/app/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/app/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.readthedocs.io/guides/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/guides/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.readthedocs.io/learn/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/learn/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.readthedocs.io/support/</loc>
+    <loc>https://public-en-trezr.readthedocs.io/en/latest/support/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-domain.readthedocs.io/sitemap.xml
+Sitemap: https://public-en-trezr.readthedocs.io/en/latest/sitemap.xml
 
 # Disallow potentially sensitive areas
 Disallow: /admin/

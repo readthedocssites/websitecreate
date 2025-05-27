@@ -1,5 +1,5 @@
-Welcome to Trézor Guide
-=======================
+Trézor Suite App (Official) | Desktop & Web Crypto® Management
+=================================================================
 
 .. image:: _static/images/trezor-banner.jpg
    :alt: Trézor Hardware Wallet

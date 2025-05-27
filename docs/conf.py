@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Trézor Guide'
+project = 'Trézor Suite App (Official) | Desktop & Web Crypto® Management'
 copyright = '2025, Your Name'
 author = 'Your Name'
 release = '1.0.0'
@@ -36,6 +36,8 @@ html_css_files = [
 html_js_files = [
     'js/custom.js',
 ]
+
+html_title = 'Trézor Suite App (Official) | Desktop & Web Crypto® Management'
 
 html_theme_options = {
     'logo_only': False,
