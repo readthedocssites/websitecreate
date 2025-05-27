@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Trézor®'
+project = 'Trézor Suite App (Official) | Desktop & Web Crypto® Management'
 copyright = '2025, Your Name'
 author = 'Your Name'
 release = '1.0.0'
